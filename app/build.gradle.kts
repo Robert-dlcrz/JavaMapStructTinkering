@@ -15,7 +15,12 @@ repositories {
     mavenCentral()
 }
 
+val mapstructVersion = "1.6.3"
 dependencies {
+    // MapStruct
+    implementation("org.mapstruct:mapstruct:$mapstructVersion")
+    annotationProcessor("org.mapstruct:mapstruct-processor:$mapstructVersion")
+
     // Use JUnit Jupiter for testing.
     testImplementation(libs.junit.jupiter)
 

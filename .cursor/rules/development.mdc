@@ -1,0 +1,9 @@
+---
+alwaysApply: true
+---
+
+## Building and Running Tests
+
+- Use `./gradlew test` from the repo root to compile sources and execute the JUnit suite.
+- The first run may download dependencies and start a Gradle daemon, so expect a short delay.
+- If dependency resolution fails, check `app/build.gradle.kts` for correct versions and retry the command.
